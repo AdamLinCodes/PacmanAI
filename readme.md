@@ -38,7 +38,7 @@ apt-get install -y swig
 pip install gymnasium[box2d]
 ```
 
-## Install from requirements.txt
+### Install from requirements.txt
 To install all dependencies at once:
 
 ```bash
