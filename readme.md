@@ -38,20 +38,9 @@ apt-get install -y swig
 pip install gymnasium[box2d]
 ```
 
-Install from requirements.txt
+## Install from requirements.txt
 To install all dependencies at once:
 
-bash
-Copy code
+```bash
 pip install -r requirements.txt
-Running the Project
-Install Dependencies: Ensure dependencies are installed as described above.
-
-Train the Agent: Run the main script to start training:
-
-bash
-Copy code
-python main.py
-Training will proceed until the agent reaches the target performance or completes the specified number of episodes. You may adjust training parameters in main.py to suit your needs.
-
-View a Trained Model: After training, a video (video.mp4) will show the agent’s gameplay. Adjust main.py to save or load model weights as desired.
+```
