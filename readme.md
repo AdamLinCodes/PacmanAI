@@ -27,7 +27,7 @@ Key techniques:
 ## Requirements
 
 This project requires Python 3 and the following libraries. You can install dependencies with the provided `requirements.txt`, or manually as shown below.
-
+**NB.** This project was originally made on Google Colab which has the option to run trainer on a T4 GPU which significantly faster than the CPU. However, this still takes an hour to train so you'll have to be patient :)
 ### Manual Installation
 
 ```bash
